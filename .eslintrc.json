@@ -1,6 +1,16 @@
 {
   "root": true,
   "ignorePatterns": ["projects/**/*"],
+  "include": [
+    // 👇️ add all the directories and files
+    // that you want to lint here
+    "src",
+    "tests",
+
+    // add all files in which you see
+    // the "parserOptions.project" error
+    ".eslintrc.js"
+  ],
   "overrides": [
     {
       "files": ["*.ts"],

@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiKey:'fe9e4fc24c1d2661c32a0d863a4fd386',
+  baseUrl:'https://api.themoviedb.org/3/',
+  images:'https://image.tmdb.org/t/p'
+
 };
 
 /*
